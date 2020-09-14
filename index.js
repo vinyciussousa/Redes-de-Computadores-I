@@ -1,15 +1,27 @@
-var number = 5.1 // Tipo Number
-console.log(number)
-console.log(typeof(number))
+/*
+function <nome> (parametros) {
 
-var palavra = "JavaScript" // Tipo String
-console.log(palavra)
-console.log(typeof(palavra))
+} 
+*/
 
-var bool = true // Tipo Booleano
-console.log(bool)
-console.log(typeof(bool))
+/*
+function somar () {
+	var x, y; x = 10; y = 10;
+	var soma = x + y;
+	console.log(soma);
+}
+*/
 
-var qualquer;
-console.log(qualquer)
-console.log(typeof(qualquer))
+const somar = function (x, y) {
+	var soma = x + y;
+	return soma;
+}
+
+var z = somar(20,20); // chamada
+console.log(z);
+
+var z = somar(15,15);
+console.log(z);
+
+var z = somar(.2,2.5);
+console.log(z);
