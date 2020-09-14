@@ -1,17 +1,18 @@
-function modulo () {
-	/*
+/*
 	function <nome> (parametros) {
 
 	} 
-	*/
+*/
 
-	/*
+/*
 	function somar () {
 		var x, y; x = 10; y = 10;
 		var soma = x + y;
 		console.log(soma);
 	}
-	*/
+*/
+
+function modulo () {
 
 	const somar = function (x, y) {
 		var soma = x + y;
