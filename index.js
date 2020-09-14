@@ -1,16 +1,15 @@
-var x = 6;
+var number = 5.1 // Tipo Number
+console.log(number)
+console.log(typeof(number))
 
-console.log(x);
+var palavra = "JavaScript" // Tipo String
+console.log(palavra)
+console.log(typeof(palavra))
 
-const y = "a";
+var bool = true // Tipo Booleano
+console.log(bool)
+console.log(typeof(bool))
 
-console.log(y);
-
-{
-	let z = 4;
-	console.log(x);
-	console.log(y);
-	console.log(z);
-}
-
-console.log(z);
+var qualquer;
+console.log(qualquer)
+console.log(typeof(qualquer))
